@@ -1,0 +1,63 @@
+```html
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Czyściutko Usługi - Odnawianie Pomników</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+    header { background: #2c3e50; color: white; padding: 20px; text-align: center; }
+    h1 { margin: 0; }
+    main { max-width: 900px; margin: 20px auto; background: white; padding: 20px; border-radius: 6px; }
+    .gallery { display: flex; gap: 10px; flex-wrap: wrap; }
+    .gallery img { width: 30%; border-radius: 4px; }
+    form { margin-top: 30px; }
+    label { display: block; margin-top: 10px; }
+    input, textarea { width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px; }
+    button { margin-top: 15px; padding: 10px 20px; background: #2c3e50; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    button:hover { background: #34495e; }
+
+footer { text-align: center; padding: 10px; margin-top: 20px; color: #777; font-size: 14px; }
+    iframe { width: 100%; height: 300px; border: none; margin-top: 20px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Czyściutko Usługi</h1>
+    <p>Odnawianie i zabezpieczanie pomników z lastryko i granitu – Przemyśl i okolice</p>
+    <p>Tel: 730 799 386</p>
+  </header>
+  <main>
+    <h2>Galeria</h2>
+    <div class="gallery">
+      <img src="images/pomnik1.jpg" alt="Pomnik 1" />
+      <img src="images/pomnik2.jpg" alt="Pomnik 2" />
+      <img src="images/pomnik3.jpg" alt="Pomnik 3" />
+    </div>
+
+    <h2>Mapa lokalizacji</h2>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2586.2037706209267!2d22.770374215810464!3d49.78379987939468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ecef1d6a139e7%3A0xa1b5440a1b3743b!2sPrzemy%C5%9Bl!5e0!3m2!1spl!2spl!4v1693300000000!5m2!1spl!2spl" 
+      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <h2>Formularz kontaktowy</h2>
+    <form action="mailto:twojemail@example.com" method="post" enctype="text/plain">
+      <label for="name">Imię i nazwisko:</label>
+      <input type="text" id="name" name="name" required />
+
+<label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Treść wiadomości:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Wyślij</button>
+    </form>
+  </main>
+  <footer>
+    &copy; 2025 Czyściutko Usługi - Przemyśl
+  </footer>
+</body>
+</html>
+```
